@@ -2,7 +2,7 @@
   <img src="assets/logo.svg" width="160" alt="Airoza Logo">
 </p>
 
-# 🤖 Airoza SDK
+# 🤖 Airoza API
 
 A robust, premium Instagram automation engine built with **Node.js**, **TypeScript**, and **Express**. Managed by **Airoza**, designed for scale, stealth, and stability.
 
@@ -30,6 +30,12 @@ For detailed guides, please refer to the specific documentation files:
 *   [**📡 API Reference**](./docs/API_REFERENCE.md) - Detailed list of all endpoints.
 *   [**🤖 Automation Guide**](./docs/AUTOMATION.md) - Understanding the task engine.
 *   [**🔗 Webhooks Integration**](./docs/WEBHOOKS.md) - Real-time notification streams.
+*   **🤖 AI Agent Examples**:
+    *   [OpenAI / ChatGPT](./examples/airoza_ai_agent.ts)
+    *   [Google Gemini](./examples/airoza_google_gemini.ts)
+    *   [Anthropic Claude](./examples/airoza_anthropic_claude.ts)
+    *   [Auto-Reply Agent](./examples/airoza_auto_reply.ts)
+    *   [Sub-Comment Thread Agent](./examples/airoza_sub_comment_agent.ts)
 
 ---
 
@@ -43,9 +49,13 @@ For detailed guides, please refer to the specific documentation files:
 
 ---
 
+## 🤖 Next Steps: AI Integration
+Once the server is running, explore our [AI Integration Examples](../examples/) to see how you can use ChatGPT, Gemini, or Claude to drive your Instagram nodes.
+
+---
+
 ## 🤝 Support & Contribution
 
 If you find a bug or have a feature request, please open an issue. For security-related reports, please contact the admin directly.
 
 *Project Airoza &copy; 2024. All Rights Reserved.*
-
