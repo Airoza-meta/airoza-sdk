@@ -1,0 +1,77 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Instagram Gradient -->
+  <defs>
+    <linearGradient id="igGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f58529"/>
+      <stop offset="25%" stop-color="#feda77"/>
+      <stop offset="50%" stop-color="#dd2a7b"/>
+      <stop offset="75%" stop-color="#8134af"/>
+      <stop offset="100%" stop-color="#515bd4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 8-BIT OUTER FRAME (Corner Pixelated) -->
+  <path d="M48 16h160v16h32v32h16v144h-16v32h-32v16H48v-16H16v-32H0V64h16V32h32V16z" 
+        fill="url(#igGradient)"/>
+
+  <!-- 8-BIT INNER BLACK CANVAS -->
+  <path d="M48 32h160v16h16v160h-16v16H48v-16H32V48h16V32z" 
+        fill="#111"/>
+
+  <!-- PIXEL ROSE PATTERN (Full Frame) -->
+  
+  <!-- Outer Petals (Deep Red Shadow) -->
+  <g fill="#800000">
+    <rect x="64" y="64" width="128" height="128"/>
+    <rect x="80" y="48" width="96" height="16"/>
+    <rect x="80" y="192" width="96" height="16"/>
+    <rect x="48" y="80" width="16" height="96"/>
+    <rect x="192" y="80" width="16" height="96"/>
+  </g>
+
+  <!-- Middle Petals (Classic Red) -->
+  <g fill="#d50000">
+    <!-- Spiral pattern base -->
+    <rect x="80" y="80" width="96" height="96"/>
+    <rect x="96" y="64" width="64" height="16"/>
+    <rect x="96" y="176" width="64" height="16"/>
+    <rect x="64" y="96" width="16" height="64"/>
+    <rect x="176" y="96" width="16" height="64"/>
+  </g>
+
+  <!-- Petal Edges & Highlights (Bright Red) -->
+  <g fill="#ff1744">
+    <!-- Top Petal Edge -->
+    <rect x="96" y="64" width="48" height="8"/>
+    <!-- Bottom Petal Edge -->
+    <rect x="112" y="184" width="48" height="8"/>
+    <!-- Spiral Arms -->
+    <rect x="64" y="96" width="8" height="32"/>
+    <rect x="184" y="128" width="8" height="32"/>
+    <rect x="112" y="112" width="48" height="8"/>
+  </g>
+
+  <!-- Shadow Accents (Creating the Swirl) -->
+  <g fill="#4a0000">
+    <rect x="112" y="96" width="48" height="8"/>
+    <rect x="96" y="112" width="8" height="48"/>
+    <rect x="112" y="160" width="48" height="8"/>
+    <rect x="152" y="128" width="8" height="32"/>
+  </g>
+
+  <!-- Inner Core (Lightest Point) -->
+  <g fill="#ff5252">
+    <rect x="120" y="128" width="16" height="16"/>
+    <rect x="136" y="120" width="8" height="8"/>
+  </g>
+
+  <!-- Green Leaf Accents (8-bit blocky) -->
+  <g fill="#2e7d32">
+    <!-- Corner Leaf Left Bottom -->
+    <rect x="48" y="176" width="16" height="16"/>
+    <rect x="32" y="192" width="16" height="16"/>
+    <!-- Corner Leaf Right Top -->
+    <rect x="192" y="64" width="16" height="16"/>
+    <rect x="208" y="48" width="16" height="16"/>
+  </g>
+</svg>
